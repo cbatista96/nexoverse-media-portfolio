@@ -332,25 +332,87 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   backdrop-filter: blur(20px);
   z-index: 90;
   display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  font-size: 22px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 600;
+  overflow: hidden;
   opacity: 0;
   pointer-events: none;
   transition: opacity .35s var(--ease);
 }
 .mmenu.is-open { opacity: 1; pointer-events: all; }
-.mmenu a { color: var(--ink); padding: 8px 0; }
+
+.mmenu__panels {
+  position: absolute;
+  top: 0; left: 0;
+  display: flex;
+  width: 200%;
+  height: 100%;
+  transition: transform .35s var(--ease);
+}
+.mmenu__panels.is-sub { transform: translateX(-50%); }
+
+.mmenu__panel {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  padding: 48px 24px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.mmenu__panel a { color: var(--ink); padding: 8px 0; }
 .mmenu__cta { color: var(--gold-2) !important; }
+
+.mmenu__has-sub {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--ink);
+  font-size: 22px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 0;
+}
+.mmenu__has-sub svg { width: 18px; height: 18px; flex-shrink: 0; opacity: 0.6; }
+
+.mmenu__back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: var(--gold-2);
+  font-size: 15px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 0;
+  align-self: flex-start;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+.mmenu__back svg { width: 16px; height: 16px; }
+
+.mmenu__panel--services .mmenu__heading {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 4px;
+  align-self: flex-start;
+}
 
 @media (max-width: 880px) {
   .nav__links, .nav__right { display: none; }
   .nav__burger { display: flex; }
-  .mmenu { display: flex; }
+  .mmenu { display: block; }
 }
 
 /* ============ TYPOGRAPHY HELPERS ============ */

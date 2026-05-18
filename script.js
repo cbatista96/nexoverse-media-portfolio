@@ -421,18 +421,32 @@ document.getElementById('yr').textContent = new Date().getFullYear();
 (() => {
   const burger = document.getElementById('burger');
   const menu = document.getElementById('mmenu');
+  const panels = document.getElementById('mmenuPanels');
+  const servicesTrigger = document.getElementById('mmenuServicesTrigger');
+  const backBtn = document.getElementById('mmenuBack');
   if (!burger) return;
-  const toggle = () => {
-    burger.classList.toggle('is-open');
-    menu.classList.toggle('is-open');
-    document.body.style.overflow = menu.classList.contains('is-open') ? 'hidden' : '';
-  };
-  burger.addEventListener('click', toggle);
-  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+
+  const close = () => {
     burger.classList.remove('is-open');
     menu.classList.remove('is-open');
     document.body.style.overflow = '';
-  }));
+    setTimeout(() => panels && panels.classList.remove('is-sub'), 350);
+  };
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('is-open');
+    menu.classList.toggle('is-open');
+    document.body.style.overflow = menu.classList.contains('is-open') ? 'hidden' : '';
+  });
+
+  if (servicesTrigger && panels) {
+    servicesTrigger.addEventListener('click', () => panels.classList.add('is-sub'));
+  }
+  if (backBtn && panels) {
+    backBtn.addEventListener('click', () => panels.classList.remove('is-sub'));
+  }
+
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
 })();
 
 /* ---------- Scroll Reveal ---------- */
