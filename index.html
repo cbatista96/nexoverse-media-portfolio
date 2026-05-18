@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0a0a0f" />
+<meta name="description" content="Carlos E. Batista Fuentes — Computer Engineer specializing in automation, AI, digital marketing and web development. Nexoverse Media." />
+<meta name="author" content="Carlos E. Batista Fuentes" />
+<meta property="og:title" content="Carlos E. Batista Fuentes | Nexoverse Media" />
+<meta property="og:description" content="Turning ideas into systems that grow your business. Automation · AI · Digital Marketing · Web Development." />
+<meta property="og:type" content="website" />
+<title>Nexoverse Media</title>
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='64' y2='64' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FFD27A'/%3E%3Cstop offset='1' stop-color='%23F59E0B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0f'/%3E%3Cpath d='M14 50 L14 14 L50 50 L50 14' fill='none' stroke='url(%23g)' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='64' y2='64' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FFD27A'/%3E%3Cstop offset='1' stop-color='%23F59E0B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0f'/%3E%3Cpath d='M14 50 L14 14 L50 50 L50 14' fill='none' stroke='url(%23g)' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+
+<!-- ============ Background FX ============ -->
+<div class="bg-fx" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-aurora bg-aurora--1"></div>
+  <div class="bg-aurora bg-aurora--2"></div>
+  <div class="bg-aurora bg-aurora--3"></div>
+  <div class="bg-noise"></div>
+</div>
+
+<!-- ============ Navbar ============ -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__brand" data-cursor="link">
+    <span class="nav__brand-mark">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 27 L5 5 L27 27 L27 5" stroke="url(#gx)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+          <linearGradient id="gx" x1="0" y1="0" x2="32" y2="32">
+            <stop offset="0" stop-color="#FFD27A"/>
+            <stop offset="1" stop-color="#F59E0B"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </span>
+    <span class="nav__brand-text">
+      <strong>NEXOVERSE</strong>
+      <em>media</em>
+    </span>
+  </a>
+
+  <nav class="nav__links">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="about.html" data-i18n="nav.about">About Us</a>
+    <div class="has-dropdown">
+      <a href="#services" data-cursor="link" data-i18n="nav.services">Services<svg class="chev" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+      <div class="nav__dropdown">
+        <a href="services/web-design.html"><svg viewBox="0 0 24 24" fill="none"><path d="M8 9l-3 3 3 3M16 9l3 3-3 3M14 5l-4 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="nav.dd.web">Web Design & Dev</span></a>
+        <a href="services/ai-automation.html"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="nav.dd.ai">AI & Automation</span></a>
+        <a href="services/digital-marketing.html"><svg viewBox="0 0 24 24" fill="none"><path d="M3 11l18-9-9 18-2-7-7-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span data-i18n="nav.dd.mkt">Digital Marketing</span></a>
+        <a href="services/seo.html"><svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="nav.dd.seo">SEO & AIO</span></a>
+        <a href="services/google-ads.html"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 9h18M9 21V9" stroke="currentColor" stroke-width="2"/></svg><span data-i18n="nav.dd.gads">Google Ads</span></a>
+        <a href="services/social-media.html"><svg viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span data-i18n="nav.dd.social">Social Media Marketing</span></a>
+        <a href="services/social-management.html"><svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="nav.dd.mgmt">Social Management</span></a>
+        <a href="services/ecommerce.html"><svg viewBox="0 0 24 24" fill="none"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2"/></svg><span data-i18n="nav.dd.ecom">E-Commerce</span></a>
+      </div>
+    </div>
+    <a href="#skills" data-cursor="link" data-i18n="nav.skills">Skills</a>
+    <a href="#contact" data-cursor="link" data-i18n="nav.contact">Contact</a>
+  </nav>
+
+  <div class="nav__right">
+    <div class="langswitch" role="group" aria-label="Language">
+      <button class="langswitch__btn" data-lang="en" data-cursor="link" aria-label="English">
+        <span class="langswitch__flag" aria-hidden="true">
+          <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="24" fill="#fff"/>
+            <path d="M0 0h36v2H0zm0 4h36v2H0zm0 4h36v2H0zm0 4h36v2H0zm0 4h36v2H0zm0 4h36v2H0z" fill="#b22234"/>
+            <rect width="15" height="12" fill="#3c3b6e"/>
+          </svg>
+        </span>
+        <span>EN</span>
+      </button>
+      <button class="langswitch__btn" data-lang="es" data-cursor="link" aria-label="Español">
+        <span class="langswitch__flag" aria-hidden="true">
+          <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="24" fill="#c60b1e"/>
+            <rect y="6" width="36" height="12" fill="#ffc400"/>
+          </svg>
+        </span>
+        <span>ES</span>
+      </button>
+    </div>
+
+    <a href="https://wa.me/17864920773" target="_blank" rel="noopener" class="nav__cta magnetic" data-cursor="link" data-wa="hero.wa.msg">
+      <span data-i18n="nav.cta">Let's talk</span>
+      <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+  <button class="nav__burger" id="burger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mmenu" id="mmenu">
+  <a href="index.html" data-i18n="nav.home">Home</a>
+  <a href="about.html" data-i18n="nav.about">About Us</a>
+  <a href="#services" data-i18n="nav.services">Services</a>
+  <a href="services/web-design.html" data-i18n="nav.dd.web">Web Design</a>
+  <a href="services/ai-automation.html" data-i18n="nav.dd.ai">AI & Automation</a>
+  <a href="services/digital-marketing.html" data-i18n="nav.dd.mkt">Digital Marketing</a>
+  <a href="services/seo.html" data-i18n="nav.dd.seo">SEO & AIO</a>
+  <a href="services/google-ads.html" data-i18n="nav.dd.gads">Google Ads</a>
+  <a href="services/social-media.html" data-i18n="nav.dd.social">Social Media</a>
+  <a href="services/social-management.html" data-i18n="nav.dd.mgmt">Social Management</a>
+  <a href="services/ecommerce.html" data-i18n="nav.dd.ecom">E-Commerce</a>
+  <a href="#skills" data-i18n="nav.skills">Skills</a>
+  <a href="#contact" data-i18n="nav.contact">Contact</a>
+
+  <div class="langswitch langswitch--mobile" role="group" aria-label="Language">
+    <button class="langswitch__btn" data-lang="en" aria-label="English">
+      <span class="langswitch__flag" aria-hidden="true">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="24" fill="#fff"/>
+          <path d="M0 0h36v2H0zm0 4h36v2H0zm0 4h36v2H0zm0 4h36v2H0zm0 4h36v2H0zm0 4h36v2H0z" fill="#b22234"/>
+          <rect width="15" height="12" fill="#3c3b6e"/>
+        </svg>
+      </span>
+      <span>English</span>
+    </button>
+    <button class="langswitch__btn" data-lang="es" aria-label="Español">
+      <span class="langswitch__flag" aria-hidden="true">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="24" fill="#c60b1e"/>
+          <rect y="6" width="36" height="12" fill="#ffc400"/>
+        </svg>
+      </span>
+      <span>Español</span>
+    </button>
+  </div>
+
+  <a href="https://wa.me/17864920773" target="_blank" rel="noopener" class="mmenu__cta" data-i18n="nav.cta.mobile" data-wa="hero.wa.msg">Let's talk →</a>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__marquee" aria-hidden="true">
+    <div class="marquee__track" id="marqueeTrack"></div>
+  </div>
+
+  <div class="hero__inner">
+
+    <div class="hero__left">
+      <div class="badge">
+        <span class="badge__dot"></span>
+        <span data-i18n="hero.badge">Available for projects · Miami, FL</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="line" data-i18n="hero.title.1">I build</span>
+        <span class="line" data-i18n-html="hero.title.2"><em>systems</em> that</span>
+        <span class="line line--accent" data-i18n-html="hero.title.3"><span class="word-3d">grow</span> your</span>
+        <span class="line" data-i18n="hero.title.4">business.</span>
+      </h1>
+
+      <p class="hero__lead" data-i18n-html="hero.lead">
+        I'm <strong>Carlos E. Batista Fuentes</strong> — Computer Engineer and designer, founder of <strong>Nexoverse Media</strong>. I combine <em>technology, automation, AI and digital marketing</em> to transform ideas into scalable platforms that deliver results.
+      </p>
+
+      <div class="hero__ctas">
+        <a href="https://wa.me/17864920773" target="_blank" rel="noopener" class="btn btn--primary magnetic" data-cursor="link" data-wa="hero.wa.msg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.582 5.328l-1.001 3.667 3.908-1.694zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+          <span data-i18n="hero.cta.wa">Message me on WhatsApp</span>
+        </a>
+        <a href="#services" class="btn btn--ghost magnetic" data-cursor="link">
+          <span data-i18n="hero.cta.services">View services</span>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <div class="stat__num"><span class="counter" data-to="40">0</span>%</div>
+          <div class="stat__lbl" data-i18n="hero.stats.1">Reduction in client operating time</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">+<span class="counter" data-to="6">0</span></div>
+          <div class="stat__lbl" data-i18n="hero.stats.2">Years transforming businesses</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">24/<span class="counter" data-to="7">0</span></div>
+          <div class="stat__lbl" data-i18n="hero.stats.3">Bots and AI agents in production</div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="hero__right">
+      <div class="company-visual" data-tilt>
+        <div class="company-visual__logo">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoBig" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFD27A"/>
+                <stop offset="1" stop-color="#F59E0B"/>
+              </linearGradient>
+            </defs>
+            <path d="M12 68 L12 12 L68 68 L68 12" stroke="url(#logoBig)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="company-visual__name"><strong>NEXOVERSE</strong><em>media</em></div>
+        <p class="company-visual__tagline" data-i18n="hero.company.tagline">Technology · AI · Marketing</p>
+        <div class="company-visual__chips">
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M8 9l-3 3 3 3M16 9l3 3-3 3M14 5l-4 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Web Dev</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>AI &amp; Automation</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 11l18-9-9 18-2-7-7-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Digital Marketing</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2"/></svg>E-Commerce</span>
+        </div>
+        <a href="about.html" class="company-visual__cta" data-i18n="hero.company.cta">Meet the team →</a>
+      </div>
+    </aside>
+
+  </div>
+
+  <a href="#services" class="scrollhint" aria-label="Scroll">
+    <span class="scrollhint__line"></span>
+    <span data-i18n="hero.scroll">scroll</span>
+  </a>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services">
+  <div class="section__head">
+    <div class="eyebrow"><span>01</span> <span data-i18n="services.eyebrow">Services</span></div>
+    <h2 class="section__title" data-i18n-html="services.title">
+      What I build for <br/><span class="ink">brands that want to scale.</span>
+    </h2>
+    <p class="section__sub" data-i18n="services.subtitle">
+      A complete ecosystem: from product development to customer acquisition, automation and follow-up. All under one strategy.
+    </p>
+  </div>
+
+  <div class="bento">
+
+    <article class="bento__card bento--lg" data-tilt>
+      <div class="bento__icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M8 9l-3 3 3 3M16 9l3 3-3 3M14 5l-4 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 data-i18n="services.1.title">Full Stack Web Development</h3>
+      <p data-i18n="services.1.desc">Corporate websites, e-commerce and custom platforms. React, Next.js, Node.js, Python and modern databases. Extreme optimization, technical SEO and user experiences that convert.</p>
+      <ul class="bento__list">
+        <li data-i18n="services.1.li1">High-performance sites and landing pages</li>
+        <li data-i18n="services.1.li2">SaaS platforms and dashboards</li>
+        <li data-i18n="services.1.li3">API and webhook integration</li>
+        <li data-i18n="services.1.li4">MongoDB / MySQL databases</li>
+      </ul>
+      <a href="services/web-design.html" class="bento__more" data-i18n="services.more">Learn more →</a>
+    </article>
+
+    <article class="bento__card" data-tilt>
+      <div class="bento__icon">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <h3 data-i18n="services.2.title">Automation & AI</h3>
+      <p data-i18n="services.2.desc">Intelligent agents with ChatGPT, Claude, Gemini and more. Bots for replies, appointments, follow-up and support. Automated flows that work 24/7 for you.</p>
+      <a href="services/ai-automation.html" class="bento__more" data-i18n="services.more">Learn more →</a>
+    </article>
+
+    <article class="bento__card" data-tilt>
+      <div class="bento__icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 12h4l3-9 4 18 3-9h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 data-i18n="services.3.title">CRM & Marketing Automation</h3>
+      <p data-i18n="services.3.desc">GoHighLevel implementation and configuration. Funnels, email & SMS marketing, lead generation and end-to-end customer journey automation.</p>
+      <a href="services/digital-marketing.html" class="bento__more" data-i18n="services.more">Learn more →</a>
+    </article>
+
+    <article class="bento__card bento--lg" data-tilt>
+      <div class="bento__icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 11l18-9-9 18-2-7-7-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 data-i18n="services.4.title">Digital Marketing & Paid Ads</h3>
+      <p data-i18n="services.4.desc">Campaigns on Meta Business Manager (Facebook · Instagram · WhatsApp), Google Ads and TikTok Ads. SEO + AIO Optimization. Strategies focused on conversions and measurable ROI.</p>
+      <ul class="bento__list">
+        <li data-i18n="services.4.li1">Targeted ads and high-impact creatives</li>
+        <li data-i18n="services.4.li2">Sales funnels and smart remarketing</li>
+        <li data-i18n="services.4.li3">Clear reporting: leads, cost per acquisition, ROI</li>
+      </ul>
+      <a href="services/digital-marketing.html" class="bento__more" data-i18n="services.more">Learn more →</a>
+    </article>
+
+    <article class="bento__card" data-tilt>
+      <div class="bento__icon">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M7 14h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <h3 data-i18n="services.5.title">IT Infrastructure</h3>
+      <p data-i18n="services.5.desc">Server, domain and hosting administration on GoDaddy, AWS, Vercel and Netlify. Security, monitoring and continuous web optimization.</p>
+    </article>
+
+    <article class="bento__card" data-tilt>
+      <div class="bento__icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l9 4-9 4-9-4 9-4zM3 10l9 4 9-4M3 14l9 4 9-4" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 data-i18n="services.6.title">Graphic Design & Branding</h3>
+      <p data-i18n="services.6.desc">Visual identity, ad creatives, editorial design and digital content. Photoshop, Canva and creative direction in the service of conversion.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills" id="skills">
+  <div class="section__head">
+    <div class="eyebrow"><span>02</span> <span data-i18n="skills.eyebrow">Key skills</span></div>
+    <h2 class="section__title" data-i18n-html="skills.title">
+      Technical stack and <br/><span class="ink">strategic capabilities.</span>
+    </h2>
+  </div>
+
+  <div class="skills__grid">
+
+    <div class="skillcard" data-tilt>
+      <header><span>01</span><h4 data-i18n="skills.1.title">Development & Programming</h4></header>
+      <div class="tags">
+        <span>React / Next.js</span><span>Node.js</span><span>Python</span>
+        <span>JavaScript</span><span>HTML / CSS</span><span>MongoDB</span><span>MySQL</span>
+        <span>REST APIs</span>
+      </div>
+    </div>
+
+    <div class="skillcard" data-tilt>
+      <header><span>02</span><h4 data-i18n="skills.2.title">Automation & AI</h4></header>
+      <div class="tags">
+        <span>ChatGPT</span><span>Claude</span><span>Gemini</span>
+        <span data-i18n="skills.tag.aiAgents">AI Agents</span><span data-i18n="skills.tag.bots">Conversational Bots</span>
+        <span>RPA</span><span data-i18n="skills.tag.aiFlows">AI Flows</span>
+      </div>
+    </div>
+
+    <div class="skillcard" data-tilt>
+      <header><span>03</span><h4 data-i18n="skills.3.title">CRM & Marketing Automation</h4></header>
+      <div class="tags">
+        <span>GoHighLevel</span><span>Funnels</span>
+        <span>Email Marketing</span><span>SMS Marketing</span>
+        <span>Lead Generation</span><span>Customer Journey</span>
+      </div>
+    </div>
+
+    <div class="skillcard" data-tilt>
+      <header><span>04</span><h4 data-i18n="skills.4.title">Digital Marketing</h4></header>
+      <div class="tags">
+        <span>Meta Business</span><span>Facebook Ads</span><span>Instagram Ads</span>
+        <span>WhatsApp Business</span><span>Google Ads</span><span>TikTok Ads</span>
+        <span>SEO</span><span>AIO Optimization</span>
+      </div>
+    </div>
+
+    <div class="skillcard" data-tilt>
+      <header><span>05</span><h4 data-i18n="skills.5.title">Infrastructure & Tools</h4></header>
+      <div class="tags">
+        <span>AWS</span><span>Vercel</span><span>Netlify</span><span>GoDaddy</span>
+        <span data-i18n="skills.tag.hosting">Domains & Hosting</span><span>Webhooks</span><span data-i18n="skills.tag.security">Web Security</span>
+      </div>
+    </div>
+
+    <div class="skillcard" data-tilt>
+      <header><span>06</span><h4 data-i18n="skills.6.title">Design & Creativity</h4></header>
+      <div class="tags">
+        <span>Photoshop</span><span>Canva</span>
+        <span>Branding</span><span data-i18n="skills.tag.graphic">Graphic Design</span>
+        <span data-i18n="skills.tag.adCreative">Ad Creatives</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="contact__inner">
+    <div class="contact__head">
+      <div class="eyebrow"><span>04</span> <span data-i18n="contact.eyebrow">Direct contact</span></div>
+      <h2 class="section__title" data-i18n-html="contact.title">
+        Ready to <span class="ink">transform</span> your business?
+      </h2>
+      <p class="section__sub" data-i18n="contact.subtitle">
+        Tell me about your project. I'll respond personally — no long forms, no middlemen.
+      </p>
+    </div>
+
+    <div class="contact__grid">
+
+      <a href="https://wa.me/17864920773" target="_blank" rel="noopener" class="ctcard ctcard--wa magnetic" data-cursor="link" data-wa="contact.wa.msg">
+        <div class="ctcard__icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.582 5.328l-1.001 3.667 3.908-1.694zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+        </div>
+        <div class="ctcard__body">
+          <small data-i18n="contact.wa.label">WhatsApp · Instant reply</small>
+          <strong>+1 (786) 492-0773</strong>
+          <span data-i18n="contact.wa.cta">Chat with me now →</span>
+        </div>
+      </a>
+
+      <a href="mailto:cbatistafuentes@gmail.com" class="ctcard ctcard--mail magnetic" data-cursor="link" data-mail-subject="contact.mail.subject" data-mail-body="contact.mail.body">
+        <div class="ctcard__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z" stroke="currentColor" stroke-width="2"/><path d="M2 8l10 7 10-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="ctcard__body">
+          <small data-i18n="contact.mail.label">Professional email</small>
+          <strong>cbatistafuentes@gmail.com</strong>
+          <span data-i18n="contact.mail.cta">Send me the details →</span>
+        </div>
+      </a>
+
+      <a href="tel:+17864920773" class="ctcard ctcard--phone magnetic" data-cursor="link">
+        <div class="ctcard__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.37 1.9.72 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="ctcard__body">
+          <small data-i18n="contact.phone.label">Direct call</small>
+          <strong>+1 (786) 492-0773</strong>
+          <span data-i18n="contact.phone.cta">Let's talk on the phone →</span>
+        </div>
+      </a>
+
+      <div class="ctcard ctcard--loc">
+        <div class="ctcard__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s-8-7-8-13a8 8 0 1116 0c0 6-8 13-8 13z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="3" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <div class="ctcard__body">
+          <small data-i18n="contact.loc.label">Location</small>
+          <strong data-i18n="contact.loc.value">Miami, Florida</strong>
+          <span data-i18n="contact.loc.sub">Cuban native · Global remote work</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="contact__cta">
+      <span class="ribbon" data-i18n="contact.ribbon">TECHNOLOGY + AUTOMATION + AI + MARKETING = RESULTS</span>
+      <h3 data-i18n="contact.ctaTitle">I turn ideas into systems that grow your business.</h3>
+      <a href="https://wa.me/17864920773" target="_blank" rel="noopener" class="btn btn--primary btn--xl magnetic" data-cursor="link" data-wa="contact.ctaMsg">
+        <span data-i18n="contact.ctaButton">Start my project</span>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <svg viewBox="0 0 32 32" fill="none"><path d="M5 27 L5 5 L27 27 L27 5" stroke="url(#gx2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="gx2" x1="0" y1="0" x2="32" y2="32"><stop offset="0" stop-color="#FFD27A"/><stop offset="1" stop-color="#F59E0B"/></linearGradient></defs></svg>
+        <span><strong>NEXOVERSE</strong> media</span>
+      </div>
+      <p data-i18n="footer.tagline">Technology, automation and artificial intelligence at the service of your brand.</p>
+    </div>
+
+    <div class="footer__cols">
+      <div>
+        <h5 data-i18n="footer.contact.title">Contact</h5>
+        <a href="mailto:cbatistafuentes@gmail.com">cbatistafuentes@gmail.com</a>
+        <a href="tel:+17864920773">+1 (786) 492-0773</a>
+        <a href="https://wa.me/17864920773" target="_blank" rel="noopener" data-i18n="footer.contact.wa">Direct WhatsApp</a>
+      </div>
+      <div>
+        <h5 data-i18n="footer.nav.title">Navigation</h5>
+        <a href="#about" data-i18n="nav.profile">Profile</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+      </div>
+      <div>
+        <h5 data-i18n="footer.services.title">Services</h5>
+        <a href="services/web-design.html" data-i18n="footer.services.1">Web Development</a>
+        <a href="services/ai-automation.html" data-i18n="footer.services.2">Automation & AI</a>
+        <a href="services/digital-marketing.html" data-i18n="footer.services.3">CRM & Marketing</a>
+        <a href="services/ecommerce.html" data-i18n="footer.services.4">Branding & Design</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© <span id="yr">2026</span> Nexoverse Media · Carlos E. Batista Fuentes</span>
+    <span data-i18n="footer.built">Handcrafted · Miami, FL</span>
+  </div>
+
+  <div class="footer__giant" aria-hidden="true">NEXOVERSE</div>
+</footer>
+
+<!-- Floating Quick Action -->
+<a href="https://wa.me/17864920773" target="_blank" rel="noopener" class="fab" aria-label="WhatsApp" data-wa="hero.wa.msg">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.582 5.328l-1.001 3.667 3.908-1.694zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
