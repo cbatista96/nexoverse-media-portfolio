@@ -5,7 +5,7 @@ const COMMON = {
   en: {
     'nav.home': 'Home', 'nav.about': 'About Us', 'nav.services': 'Services',
     'nav.skills': 'Skills', 'nav.experience': 'Experience', 'nav.contact': 'Contact',
-    'nav.cta': "Let's talk",
+    'nav.cta': 'Start Your Project',
     'nav.dd.web': 'Web Design & Dev', 'nav.dd.ai': 'AI & Automation',
     'nav.dd.mkt': 'Digital Marketing', 'nav.dd.seo': 'SEO & AIO',
     'nav.dd.gads': 'Google Ads', 'nav.dd.social': 'Social Media Marketing',
@@ -29,7 +29,7 @@ const COMMON = {
   es: {
     'nav.home': 'Inicio', 'nav.about': 'Nosotros', 'nav.services': 'Servicios',
     'nav.skills': 'Habilidades', 'nav.experience': 'Experiencia', 'nav.contact': 'Contacto',
-    'nav.cta': 'Hablemos',
+    'nav.cta': 'Iniciar proyecto',
     'nav.dd.web': 'Diseño Web & Dev', 'nav.dd.ai': 'IA & Automatización',
     'nav.dd.mkt': 'Marketing Digital', 'nav.dd.seo': 'SEO & AIO',
     'nav.dd.gads': 'Google Ads', 'nav.dd.social': 'Marketing en Redes',

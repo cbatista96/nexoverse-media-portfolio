@@ -34,7 +34,7 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
@@ -63,7 +63,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 .preloader__inner { width: min(640px, 80vw); text-align: center; }
 .preloader__logo {
   display: flex; align-items: center; justify-content: center; gap: 16px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 700; letter-spacing: 0.3em; font-size: clamp(14px, 1.5vw, 18px);
   color: var(--ink-soft);
   margin-bottom: 28px;
@@ -92,7 +92,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .preloader__counter {
   margin-top: 14px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 500;
   color: var(--ink-mute);
   font-variant-numeric: tabular-nums;
@@ -154,7 +154,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .nav__brand {
   display: flex; align-items: center; gap: 12px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 .nav__brand-mark {
   width: 36px; height: 36px;
@@ -271,7 +271,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   display: inline-flex; align-items: center; gap: 6px;
   padding: 6px 10px 6px 6px;
   border-radius: 100px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px;
   font-weight: 600;
   color: var(--ink-mute);
@@ -358,7 +358,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   align-items: center;
   gap: 20px;
   font-size: 22px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   padding: 48px 24px;
   overflow-y: auto;
@@ -375,7 +375,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border: none;
   color: var(--ink);
   font-size: 22px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   cursor: pointer;
   padding: 8px 0;
@@ -390,7 +390,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border: none;
   color: var(--gold-2);
   font-size: 15px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   cursor: pointer;
   padding: 8px 0;
@@ -418,7 +418,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 /* ============ TYPOGRAPHY HELPERS ============ */
 .eyebrow {
   display: inline-flex; align-items: center; gap: 10px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase;
   color: var(--ink-mute);
   margin-bottom: 24px;
@@ -433,7 +433,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   flex-shrink: 0;
 }
 .section__title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2rem, 4.6vw, 4rem);
   font-weight: 700;
   line-height: 1.06;
@@ -445,7 +445,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-family: 'Instrument Serif', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 400;
   display: inline-block;
@@ -513,7 +513,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 .marquee__track {
   display: flex;
   white-space: nowrap;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -536,7 +536,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   font-size: 12.5px;
   color: var(--ink-soft);
   margin-bottom: 28px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0.04em;
 }
 .badge__dot {
@@ -551,7 +551,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 
 .hero__title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2.6rem, 6.4vw, 5.6rem);
   line-height: 1.05;
   letter-spacing: -0.035em;
@@ -571,7 +571,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 @keyframes heroLineLeft  { from { opacity:0; transform:translateX(-90px); } to { opacity:1; transform:translateX(0); } }
 @keyframes heroLineRight { from { opacity:0; transform:translateX( 90px); } to { opacity:1; transform:translateX(0); } }
 .hero__title em {
-  font-family: 'Instrument Serif', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 400;
   color: var(--gold-2);
@@ -645,7 +645,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 @media (max-width: 540px) { .hero__stats { grid-template-columns: 1fr; } }
 .stat__num {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.6rem, 2.4vw, 2.2rem);
   font-weight: 700;
   background: var(--accent-grad);
@@ -727,7 +727,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   filter: drop-shadow(0 0 24px rgba(245,185,74,.5));
 }
 .company-visual__name {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.4rem;
   letter-spacing: 0.12em;
   margin-bottom: 8px;
@@ -791,7 +791,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   display: flex; flex-direction: column; align-items: center; gap: 8px;
   color: var(--ink-mute);
   font-size: 11px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0.32em;
   text-transform: uppercase;
 }
@@ -813,7 +813,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 @media (max-width: 880px) { .about__grid { grid-template-columns: 1fr; } }
 .about__copy .big {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.3rem, 2vw, 1.6rem);
   font-weight: 500;
   color: var(--ink);
@@ -835,7 +835,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 .signature small {
   display: block;
   margin-top: 8px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--ink-mute);
   font-size: 12px;
   letter-spacing: 0.06em;
@@ -859,7 +859,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   pointer-events: none;
 }
 .about__fortalezas h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.04em;
   margin: 0 0 22px;
@@ -931,7 +931,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .bento__icon svg { width: 24px; height: 24px; }
 .bento__card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -1024,18 +1024,18 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .pricing-table__head > div:first-child {
   align-items: flex-start;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.1rem;
   color: var(--ink);
 }
 .pricing-table__head strong {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.15rem, 2vw, 1.65rem);
   line-height: 1.1;
   color: var(--ink);
 }
 .pricing-table__head span {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1rem, 1.4vw, 1.25rem);
   font-weight: 700;
   color: var(--gold-2);
@@ -1094,7 +1094,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 .price-card__icon svg,
 .industry-card__icon svg { width: 27px; height: 27px; }
 .price-card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.55rem;
   margin: 0 0 6px;
 }
@@ -1102,7 +1102,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   margin: 0 0 18px;
   color: var(--gold-2);
   font-weight: 700;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 .price-card li {
   color: var(--ink-soft);
@@ -1155,7 +1155,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border-radius: 0 0 999px 999px;
   background: rgba(255, 255, 255, .92);
   color: #9a6400;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
@@ -1163,7 +1163,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   white-space: nowrap;
 }
 .plan-card__top h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.55rem, 2.5vw, 2.6rem);
   line-height: 1.02;
   margin: 0 0 14px;
@@ -1184,7 +1184,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border-radius: 22px;
   background: rgba(255, 255, 255, .92);
   color: #171717;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(3rem, 5vw, 4.3rem);
   line-height: 1;
   font-weight: 800;
@@ -1273,7 +1273,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   background: rgba(255, 255, 255, .055);
 }
 .industry-card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   margin: 0 0 10px;
   font-size: 1.25rem;
 }
@@ -1296,7 +1296,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
     linear-gradient(135deg, rgba(245, 185, 74, .1), rgba(255, 255, 255, .035));
 }
 .search-footprint h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.55rem, 2.5vw, 2.5rem);
   line-height: 1.08;
   margin: 0 0 14px;
@@ -1363,12 +1363,12 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border-radius: 10px;
   background: rgba(245, 185, 74, 0.12);
   color: var(--gold-2);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   font-size: 12px;
 }
 .skillcard h4 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
   margin: 0;
@@ -1440,7 +1440,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border-bottom: 1px solid var(--line);
 }
 .timeline__card h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.45rem;
   margin: 0 0 4px;
   letter-spacing: -0.015em;
@@ -1449,7 +1449,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   margin: 0;
   color: var(--gold-2);
   font-size: 14px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 500;
 }
 .timeline__tag {
@@ -1459,7 +1459,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   border-radius: 100px;
   font-size: 11.5px;
   color: var(--ink-mute);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   white-space: nowrap;
@@ -1487,7 +1487,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .highlight strong {
   display: inline-flex; align-items: center; gap: 8px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1532,7 +1532,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   backdrop-filter: blur(10px);
 }
 .langcard__flag { font-size: 36px; line-height: 1; }
-.langcard h4 { font-family: 'Space Grotesk', sans-serif; margin: 0 0 4px; font-size: 1.1rem; }
+.langcard h4 { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0 0 4px; font-size: 1.1rem; }
 .langcard p { margin: 0; color: var(--ink-soft); font-size: 13.5px; }
 .langcard__bar {
   grid-column: 1 / -1;
@@ -1616,7 +1616,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 .ctcard__body small {
   color: var(--ink-mute);
   font-size: 11.5px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1629,7 +1629,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   font-size: 12.5px;
   color: var(--gold-2);
   margin-top: 2px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 .ctcard--wa .ctcard__icon { background: rgba(37, 211, 102, 0.12); border-color: rgba(37, 211, 102, 0.35); color: #25d366; }
 .ctcard--mail .ctcard__icon { background: rgba(94, 234, 212, 0.1); border-color: rgba(94, 234, 212, 0.3); color: #5eead4; }
@@ -1649,14 +1649,14 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   background: rgba(245, 185, 74, 0.1);
   border: 1px solid rgba(245, 185, 74, 0.25);
   color: var(--gold-2);
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 11.5px;
   letter-spacing: 0.18em;
   font-weight: 500;
   margin-bottom: 22px;
 }
 .contact__cta h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.6rem, 3.5vw, 2.6rem);
   font-weight: 600;
   margin: 0 0 32px;
@@ -1682,7 +1682,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 @media (max-width: 880px) { .footer__inner { grid-template-columns: 1fr; gap: 40px; } }
 .footer__logo {
   display: flex; align-items: center; gap: 12px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   margin-bottom: 14px;
 }
 .footer__logo svg { width: 22px; height: 22px; }
@@ -1695,7 +1695,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 @media (max-width: 620px) { .footer__cols { grid-template-columns: 1fr 1fr; } }
 .footer__cols h5 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 11.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1725,7 +1725,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .footer__giant {
   position: relative;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 700;
   font-size: clamp(80px, 18vw, 240px);
   letter-spacing: -0.04em;

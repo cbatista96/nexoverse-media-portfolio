@@ -20,7 +20,7 @@
   padding: 0 24px;
 }
 .about-hero__title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2.6rem, 6vw, 5.2rem);
   font-weight: 700;
   line-height: 1.06;
@@ -29,7 +29,7 @@
   margin: 0 0 24px;
 }
 .about-hero__title em {
-  font-family: 'Instrument Serif', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 400;
   background: var(--accent-grad);
@@ -64,7 +64,7 @@
 }
 @media (max-width: 880px) { .about-mission__grid { grid-template-columns: 1fr; gap: 40px; } }
 .about-mission__text h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(1.8rem, 3.5vw, 2.8rem);
   font-weight: 700;
   letter-spacing: -.03em;
@@ -72,7 +72,7 @@
   color: var(--ink);
 }
 .about-mission__text h2 em {
-  font-family: 'Instrument Serif', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 400;
   background: var(--accent-grad);
@@ -112,7 +112,7 @@
 }
 .about-mission__val-icon svg { width: 18px; height: 18px; color: var(--gold); }
 .about-mission__val h4 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   font-size: 15px;
   margin: 0 0 8px;
@@ -132,7 +132,7 @@
   margin-bottom: 56px;
 }
 .about-team__head h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 700;
   letter-spacing: -.03em;
@@ -140,7 +140,7 @@
   color: var(--ink);
 }
 .about-team__head h2 em {
-  font-family: 'Instrument Serif', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 400;
   background: var(--accent-grad);
@@ -202,7 +202,7 @@
   display: block;
 }
 .team-card__initials {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   background: var(--accent-grad);
@@ -221,7 +221,7 @@
   opacity: .6;
 }
 .team-card__name {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0 0 6px;
@@ -292,7 +292,7 @@
 }
 .about-stat:last-child { border-right: none; }
 .about-stat__num {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2.2rem, 4vw, 3.4rem);
   font-weight: 800;
   letter-spacing: -.04em;
@@ -323,7 +323,7 @@
 }
 .about-cta__inner { max-width: 680px; margin: 0 auto; position: relative; }
 .about-cta__inner h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 700;
   letter-spacing: -.03em;
@@ -331,7 +331,7 @@
   margin: 0 0 16px;
 }
 .about-cta__inner h2 em {
-  font-family: 'Instrument Serif', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 400;
   background: var(--accent-grad);
@@ -442,7 +442,7 @@
 }
 .drawer-profile__photo span {
   grid-area: 1 / 1;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   background: var(--accent-grad);
@@ -452,7 +452,7 @@
 }
 .drawer-profile__img + span { display: none; }
 .drawer-profile__top h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0 0 6px;
@@ -479,7 +479,7 @@
   margin: 0 0 16px;
 }
 .drawer-section-title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: .14em;
@@ -519,7 +519,7 @@
   margin-bottom: 12px;
 }
 .drawer-exp__header h4 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
   font-size: 14.5px;
   margin: 0 0 4px;
