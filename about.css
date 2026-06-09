@@ -190,11 +190,16 @@
   width: 120px; height: 120px;
   border-radius: 50%;
   background-color: #1a1305;
-  background-size: cover;
-  background-position: center top;
   display: grid;
   place-items: center;
   overflow: hidden;
+}
+.team-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 .team-card__initials {
   font-family: 'Space Grotesk', sans-serif;
@@ -422,14 +427,21 @@
   border-radius: 50%;
   flex-shrink: 0;
   background-color: #1a1305;
-  background-size: cover;
-  background-position: center top;
   display: grid;
   place-items: center;
   border: 2px solid var(--line-strong);
   overflow: hidden;
 }
+.drawer-profile__img {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
 .drawer-profile__photo span {
+  grid-area: 1 / 1;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
@@ -438,6 +450,7 @@
   background-clip: text;
   color: transparent;
 }
+.drawer-profile__img + span { display: none; }
 .drawer-profile__top h2 {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;

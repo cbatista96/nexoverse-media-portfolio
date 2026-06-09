@@ -1,0 +1,26 @@
+# Nexoverse Media
+
+Nexoverse Media is a Miami-based digital agency serving Miami, Florida, the United States and remote clients worldwide.
+
+Core services:
+- Web design and website development
+- Landing pages, custom WordPress websites and advanced e-commerce websites
+- SEO and AIO optimization for Google, Bing and AI-assisted answer engines
+- Website maintenance, hosting support, plugin updates and content growth plans
+- AI automation, conversational bots, CRM automation and workflow automation
+- Digital marketing, Google Ads, social media marketing and Google Business Profile growth
+- Managed IT services for healthcare, law firms, finance, construction, distribution, retail, nonprofits, IT companies and small businesses
+
+Primary contact:
+- Email: cbatistafuentes@gmail.com
+- Phone and WhatsApp: +1 786 492 0773
+- Location: Miami, Florida
+
+Important pages:
+- Home: https://nexoverse-media-portfolio.vercel.app/
+- About: https://nexoverse-media-portfolio.vercel.app/about
+- Web Design: https://nexoverse-media-portfolio.vercel.app/services/web-design
+- SEO & AIO: https://nexoverse-media-portfolio.vercel.app/services/seo
+- Digital Marketing: https://nexoverse-media-portfolio.vercel.app/services/digital-marketing
+- Google Ads: https://nexoverse-media-portfolio.vercel.app/services/google-ads
+- AI Automation: https://nexoverse-media-portfolio.vercel.app/services/ai-automation
