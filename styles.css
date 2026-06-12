@@ -592,20 +592,14 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   color: var(--gold-2);
 }
 .hero__title .line--accent,
-.hero__title .line--accent > span,
-.hero__title .line--accent .word-3d {
+.hero__title .line--accent > span {
   background: var(--accent-grad);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-.word-3d {
-  display: inline-block;
-  position: relative;
-  transform: translateZ(0);
-  filter: drop-shadow(0 4px 12px rgba(245, 185, 74, 0.35));
-}
+.hero__title .line--accent { filter: none; text-shadow: none; }
 
 .hero__lead {
   max-width: 56ch;
