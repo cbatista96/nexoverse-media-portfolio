@@ -17,10 +17,10 @@ Primary contact:
 - Location: Miami, Florida
 
 Important pages:
-- Home: https://nexoverse-media-portfolio.vercel.app/
-- About: https://nexoverse-media-portfolio.vercel.app/about
-- Web Design: https://nexoverse-media-portfolio.vercel.app/services/web-design
-- SEO & AIO: https://nexoverse-media-portfolio.vercel.app/services/seo
-- Digital Marketing: https://nexoverse-media-portfolio.vercel.app/services/digital-marketing
-- Google Ads: https://nexoverse-media-portfolio.vercel.app/services/google-ads
-- AI Automation: https://nexoverse-media-portfolio.vercel.app/services/ai-automation
+- Home: https://www.worldmarketinglabs.com/
+- About: https://www.worldmarketinglabs.com/about
+- Web Design: https://www.worldmarketinglabs.com/services/web-design
+- SEO & AIO: https://www.worldmarketinglabs.com/services/seo
+- Digital Marketing: https://www.worldmarketinglabs.com/services/digital-marketing
+- Google Ads: https://www.worldmarketinglabs.com/services/google-ads
+- AI Automation: https://www.worldmarketinglabs.com/services/ai-automation
