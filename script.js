@@ -1,5 +1,5 @@
 /* =========================================================
-   NEXOVERSE MEDIA — Interactivity
+   WORLD MARKETING LABS — Interactivity
    ========================================================= */
 
 document.documentElement.style.scrollBehavior = 'smooth';
@@ -9,9 +9,9 @@ document.documentElement.style.scrollBehavior = 'smooth';
    ==================================================================== */
 const i18n = {
   en: {
-    "doc.title": "Nexoverse Media | Web Design, SEO, AI & Managed IT in Miami",
-    "meta.desc": "Nexoverse Media is a Miami digital agency for web design, SEO, AIO, AI automation, digital marketing and managed IT services. Serving Miami, all USA and remote clients worldwide.",
-    "og.title": "Nexoverse Media | Web Design, SEO, AI & Managed IT in Miami",
+    "doc.title": "World Marketing Labs | Web Design, SEO, AI & Managed IT in Miami",
+    "meta.desc": "World Marketing Labs is a Miami digital agency for web design, SEO, AIO, AI automation, digital marketing and managed IT services. Serving Miami, all USA and remote clients worldwide.",
+    "og.title": "World Marketing Labs | Web Design, SEO, AI & Managed IT in Miami",
     "og.desc": "Miami-based digital agency for high-performance websites, SEO/AIO, AI automation, marketing growth plans and managed IT support across the USA and worldwide.",
 
     "nav.home": "Home",
@@ -32,10 +32,10 @@ const i18n = {
     "hero.title.2": "<em>and AI automation</em>",
     "hero.title.3": "for <span class=\"word-3d\">Miami</span>",
     "hero.title.4": "and global brands.",
-    "hero.lead": "<strong>Nexoverse Media</strong> is a Miami-based digital agency combining web development, SEO/AIO, AI automation, digital marketing and managed IT. We build <em>scalable websites, intelligent tools and growth systems</em> for businesses in Miami, across the USA and remotely worldwide.",
+    "hero.lead": "<strong>World Marketing Labs</strong> is a Miami-based digital agency combining web development, SEO/AIO, AI automation, digital marketing and managed IT. We build <em>scalable websites, intelligent tools and growth systems</em> for businesses in Miami, across the USA and remotely worldwide.",
     "hero.cta.wa": "Message us on WhatsApp",
     "hero.cta.services": "View services",
-    "hero.wa.msg": "Hi, I'd like to talk about a project with Nexoverse Media.",
+    "hero.wa.msg": "Hi, I'd like to talk about a project with World Marketing Labs.",
     "hero.stats.1": "Reduction in client operating time",
     "hero.stats.2": "Years transforming businesses",
     "hero.stats.3": "Bots and AI agents in production",
@@ -47,7 +47,7 @@ const i18n = {
     "about.title": "Technology, creativity and strategy <br/><span class=\"ink\">focused on results.</span>",
     "about.big": "A multidisciplinary team with deep expertise in web development, process automation, artificial intelligence, digital marketing and IT infrastructure.",
     "about.copy": "We understand business and build efficient technological solutions that drive growth, streamline operations and deliver measurable results. We combine technology, creativity and strategy to build scalable, automated systems focused on return on investment.",
-    "about.signature": "Nexoverse Media · Founding Team",
+    "about.signature": "World Marketing Labs · Founding Team",
     "about.strengths.title": "Strengths",
     "about.strengths.1": "We understand business and build solutions that drive results.",
     "about.strengths.2": "We combine technology, automation, marketing and AI to accelerate growth.",
@@ -238,17 +238,17 @@ const i18n = {
     "contact.wa.msg": "Hi, I saw your portfolio and would like to talk about a project.",
     "contact.mail.label": "Professional email",
     "contact.mail.cta": "Send us the details →",
-    "contact.mail.subject": "Project - Nexoverse Media",
+    "contact.mail.subject": "Project - World Marketing Labs",
     "contact.mail.body": "Hi, I'm writing because...",
     "contact.phone.label": "Direct call",
-    "contact.phone.cta": "Call Nexoverse Media ?",
+    "contact.phone.cta": "Call World Marketing Labs ?",
     "contact.loc.label": "Headquarters",
     "contact.loc.value": "Miami, Florida",
     "contact.loc.sub": "Headquarters in Miami, Florida · Global remote work",
     "contact.ribbon": "TECHNOLOGY + AUTOMATION + AI + MARKETING = RESULTS",
     "contact.ctaTitle": "We turn ideas into systems that grow your business.",
     "contact.ctaButton": "Start my project",
-    "contact.ctaMsg": "Hi, I want to start a project with Nexoverse Media.",
+    "contact.ctaMsg": "Hi, I want to start a project with World Marketing Labs.",
 
     "footer.tagline": "Technology, automation and artificial intelligence at the service of your brand.",
     "footer.contact.title": "Contact",
@@ -262,9 +262,9 @@ const i18n = {
     "footer.built": "Handcrafted · Miami, FL"
   },
   es: {
-    "doc.title": "Nexoverse Media | Diseño Web, SEO, IA & TI en Miami",
-    "meta.desc": "Nexoverse Media es una agencia digital en Miami para diseño web, SEO, AIO, automatización con IA, marketing digital y servicios de TI gestionados. Atendemos Miami, todo USA y clientes remotos en el mundo.",
-    "og.title": "Nexoverse Media | Diseño Web, SEO, IA & TI en Miami",
+    "doc.title": "World Marketing Labs | Diseño Web, SEO, IA & TI en Miami",
+    "meta.desc": "World Marketing Labs es una agencia digital en Miami para diseño web, SEO, AIO, automatización con IA, marketing digital y servicios de TI gestionados. Atendemos Miami, todo USA y clientes remotos en el mundo.",
+    "og.title": "World Marketing Labs | Diseño Web, SEO, IA & TI en Miami",
     "og.desc": "Agencia digital en Miami para sitios web de alto rendimiento, SEO/AIO, automatización con IA, planes de marketing y soporte TI en USA y remoto global.",
 
     "nav.home": "Inicio",
@@ -285,10 +285,10 @@ const i18n = {
     "hero.title.2": "<em>y automatización con IA</em>",
     "hero.title.3": "para <span class=\"word-3d\">Miami</span>",
     "hero.title.4": "y marcas globales.",
-    "hero.lead": "<strong>Nexoverse Media</strong> es una agencia digital en Miami que combina desarrollo web, SEO/AIO, automatización con IA, marketing digital y TI gestionado. Construimos <em>sitios escalables, herramientas inteligentes y sistemas de crecimiento</em> para negocios en Miami, todo USA y clientes remotos en el mundo.",
+    "hero.lead": "<strong>World Marketing Labs</strong> es una agencia digital en Miami que combina desarrollo web, SEO/AIO, automatización con IA, marketing digital y TI gestionado. Construimos <em>sitios escalables, herramientas inteligentes y sistemas de crecimiento</em> para negocios en Miami, todo USA y clientes remotos en el mundo.",
     "hero.cta.wa": "Escríbenos por WhatsApp",
     "hero.cta.services": "Ver servicios",
-    "hero.wa.msg": "Hola, quisiera hablar sobre un proyecto con Nexoverse Media.",
+    "hero.wa.msg": "Hola, quisiera hablar sobre un proyecto con World Marketing Labs.",
     "hero.stats.1": "Reducción de tiempo operativo en clientes",
     "hero.stats.2": "Años transformando negocios",
     "hero.stats.3": "Bots y agentes IA en producción",
@@ -300,7 +300,7 @@ const i18n = {
     "about.title": "Tecnología, creatividad y estrategia <br/><span class=\"ink\">enfocadas en resultados.</span>",
     "about.big": "Un equipo multidisciplinario con amplia experiencia en desarrollo web, automatización de procesos, inteligencia artificial, marketing digital e infraestructura IT.",
     "about.copy": "Entendemos el negocio y creamos soluciones tecnológicas eficientes que impulsan el crecimiento, optimizan operaciones y generan resultados medibles. Combinamos tecnología, creatividad y estrategia para construir sistemas escalables, automatizados y enfocados en retorno de inversión.",
-    "about.signature": "Nexoverse Media · Equipo Fundador",
+    "about.signature": "World Marketing Labs · Equipo Fundador",
     "about.strengths.title": "Fortalezas",
     "about.strengths.1": "Entendemos el negocio y creamos soluciones que generan resultados.",
     "about.strengths.2": "Combinamos tecnología, automatización, marketing e IA para acelerar el crecimiento.",
@@ -488,10 +488,10 @@ const i18n = {
     "contact.subtitle": "Cuéntanos sobre tu proyecto. Te respondemos personalmente — sin formularios largos ni intermediarios.",
     "contact.wa.label": "WhatsApp · Respuesta inmediata",
     "contact.wa.cta": "Chatea con nosotros ahora →",
-    "contact.wa.msg": "Hola, vi el portafolio de Nexoverse Media y me gustaría hablar de un proyecto.",
+    "contact.wa.msg": "Hola, vi el portafolio de World Marketing Labs y me gustaría hablar de un proyecto.",
     "contact.mail.label": "Email profesional",
     "contact.mail.cta": "Envíanos los detalles →",
-    "contact.mail.subject": "Proyecto - Nexoverse Media",
+    "contact.mail.subject": "Proyecto - World Marketing Labs",
     "contact.mail.body": "Hola, les escribo porque...",
     "contact.phone.label": "Llamada directa",
     "contact.phone.cta": "Hablemos por teléfono →",
@@ -501,7 +501,7 @@ const i18n = {
     "contact.ribbon": "TECNOLOGÍA + AUTOMATIZACIÓN + IA + MARKETING = RESULTADOS",
     "contact.ctaTitle": "Transformamos ideas en sistemas que hacen crecer tu negocio.",
     "contact.ctaButton": "Empezar mi proyecto",
-    "contact.ctaMsg": "Hola, quiero empezar un proyecto con Nexoverse Media.",
+    "contact.ctaMsg": "Hola, quiero empezar un proyecto con World Marketing Labs.",
 
     "footer.tagline": "Tecnología, automatización e inteligencia artificial al servicio de tu marca.",
     "footer.contact.title": "Contacto",
@@ -569,7 +569,7 @@ function applyTranslations(lang) {
   }
 
   /* Document title + meta tags */
-  document.title = t['doc.title'] || 'Nexoverse Media';
+  document.title = t['doc.title'] || 'World Marketing Labs';
   const md = document.querySelector('meta[name="description"]');
   if (md && t['meta.desc']) md.setAttribute('content', t['meta.desc']);
   const ot = document.querySelector('meta[property="og:title"]');

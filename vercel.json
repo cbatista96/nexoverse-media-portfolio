@@ -3,17 +3,6 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.nexoverse-media-portfolio.vercel.app"
-        }
-      ],
-      "destination": "https://nexoverse-media-portfolio.vercel.app/$1",
-      "permanent": true
-    },
-    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true

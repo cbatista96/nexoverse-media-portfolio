@@ -7,13 +7,13 @@ const I18N = {
     'nav.dd.mkt': 'Digital Marketing', 'nav.dd.seo': 'SEO & AIO',
     'nav.dd.gads': 'Google Ads', 'nav.dd.social': 'Social Media Marketing',
     'nav.dd.mgmt': 'Social Management', 'nav.dd.ecom': 'E-Commerce',
-    'nav.wa.msg': "Hi, I'd like to talk about a project with Nexoverse Media.",
+    'nav.wa.msg': "Hi, I'd like to talk about a project with World Marketing Labs.",
     'about.eyebrow': 'About Us',
     'about.hero.title': 'Miami Digital Agency for <br/><em>Web, SEO, AI and IT.</em>',
-    'about.hero.lead': 'Nexoverse Media is a Miami-based digital agency combining full-stack development, AI automation and performance marketing — built by specialists who understand both technology and business.',
+    'about.hero.lead': 'World Marketing Labs is a Miami-based digital agency combining full-stack development, AI automation and performance marketing — built by specialists who understand both technology and business.',
     'about.mission.eyebrow': 'Our Mission',
     'about.mission.title': 'We build systems that <em>grow businesses.</em>',
-    'about.mission.p1': "Technology alone doesn't grow a business — strategy does. At Nexoverse Media we combine custom software development, intelligent automation and data-driven marketing into a single cohesive strategy for our clients.",
+    'about.mission.p1': "Technology alone doesn't grow a business — strategy does. At World Marketing Labs we combine custom software development, intelligent automation and data-driven marketing into a single cohesive strategy for our clients.",
     'about.mission.p2': 'We work with entrepreneurs, established businesses and brands across the US and Latin America, delivering measurable results: more leads, lower costs and systems that keep working while you sleep.',
     'about.mission.p3': 'Our headquarters are in Miami, Florida, and our work is remote-first for clients across the United States and global markets. Every project is planned with search visibility, AI answer engines and conversion paths in mind, so the website, CRM, automations and marketing channels support one measurable growth system.',
     'about.mission.p4': 'We support local businesses, health providers, legal offices, finance teams, construction companies, retailers, nonprofits and technology teams that need reliable web platforms, SEO/AIO foundations, paid campaigns and managed IT support without juggling multiple vendors.',
@@ -27,7 +27,7 @@ const I18N = {
     'about.team.eyebrow': 'The Team',
     'about.team.title': 'The people <em>behind the work.</em>',
     'about.team.sub': 'Click on any team member to see their full profile, experience and skills.',
-    'about.team.note': 'More team members joining soon. Nexoverse Media is growing.',
+    'about.team.note': 'More team members joining soon. World Marketing Labs is growing.',
     'about.card.cta': 'View profile →',
     'carlos.role': 'Founder & CEO · Computer Engineer',
     'about.stat1': 'Years of combined experience',
@@ -38,7 +38,7 @@ const I18N = {
     'about.cta.sub': 'Free consultation · Personal reply within 24 h',
     'about.cta.btn': 'Start a project on WhatsApp',
     'about.cta.email': 'Or send an email',
-    'about.wa.msg': "Hi, I found Nexoverse Media and would like to start a project.",
+    'about.wa.msg': "Hi, I found World Marketing Labs and would like to start a project.",
     'footer.tagline': 'Technology, automation and AI at the service of your brand.',
     'footer.contact.title': 'Contact', 'footer.contact.wa': 'Direct WhatsApp',
     'footer.nav.title': 'Navigation', 'footer.services.title': 'Services',
@@ -51,13 +51,13 @@ const I18N = {
     'nav.dd.mkt': 'Marketing Digital', 'nav.dd.seo': 'SEO & AIO',
     'nav.dd.gads': 'Google Ads', 'nav.dd.social': 'Marketing en Redes',
     'nav.dd.mgmt': 'Gestión de Redes', 'nav.dd.ecom': 'E-Commerce',
-    'nav.wa.msg': 'Hola, quisiera hablar sobre un proyecto con Nexoverse Media.',
+    'nav.wa.msg': 'Hola, quisiera hablar sobre un proyecto con World Marketing Labs.',
     'about.eyebrow': 'Nosotros',
     'about.hero.title': 'Agencia digital en Miami para <br/><em>web, SEO, IA y TI.</em>',
-    'about.hero.lead': 'Nexoverse Media es una agencia digital con base en Miami que combina desarrollo full-stack, automatización con IA y marketing de rendimiento — creada por especialistas que entienden tanto la tecnología como el negocio.',
+    'about.hero.lead': 'World Marketing Labs es una agencia digital con base en Miami que combina desarrollo full-stack, automatización con IA y marketing de rendimiento — creada por especialistas que entienden tanto la tecnología como el negocio.',
     'about.mission.eyebrow': 'Nuestra Misión',
     'about.mission.title': 'Construimos sistemas que <em>hacen crecer negocios.</em>',
-    'about.mission.p1': 'La tecnología por sí sola no hace crecer un negocio — la estrategia sí. En Nexoverse Media combinamos desarrollo de software personalizado, automatización inteligente y marketing basado en datos en una estrategia única y coherente para nuestros clientes.',
+    'about.mission.p1': 'La tecnología por sí sola no hace crecer un negocio — la estrategia sí. En World Marketing Labs combinamos desarrollo de software personalizado, automatización inteligente y marketing basado en datos en una estrategia única y coherente para nuestros clientes.',
     'about.mission.p2': 'Trabajamos con emprendedores, negocios establecidos y marcas en EE.UU. y América Latina, entregando resultados medibles: más leads, menores costos y sistemas que siguen trabajando mientras duermes.',
     'about.mission.p3': 'Nuestra sede está en Miami, Florida, y trabajamos de forma remota con clientes en Estados Unidos y mercados globales. Cada proyecto se planifica pensando en visibilidad en buscadores, respuestas de IA y rutas de conversión, para que la web, el CRM, las automatizaciones y el marketing funcionen como un sistema medible de crecimiento.',
     'about.mission.p4': 'Apoyamos a negocios locales, proveedores de salud, despachos legales, equipos financieros, constructoras, comercios, organizaciones sin ánimo de lucro y equipos tecnológicos que necesitan plataformas web confiables, bases SEO/AIO, campañas pagadas y soporte TI gestionado sin depender de varios proveedores.',
@@ -71,7 +71,7 @@ const I18N = {
     'about.team.eyebrow': 'El Equipo',
     'about.team.title': 'Las personas <em>detrás del trabajo.</em>',
     'about.team.sub': 'Haz clic en cualquier miembro del equipo para ver su perfil completo, experiencia y habilidades.',
-    'about.team.note': 'Más miembros se unirán pronto. Nexoverse Media está creciendo.',
+    'about.team.note': 'Más miembros se unirán pronto. World Marketing Labs está creciendo.',
     'about.card.cta': 'Ver perfil →',
     'carlos.role': 'Fundador & CEO · Ingeniero Informático',
     'about.stat1': 'Años de experiencia combinada',
@@ -82,7 +82,7 @@ const I18N = {
     'about.cta.sub': 'Consulta gratuita · Respuesta personal en menos de 24 h',
     'about.cta.btn': 'Iniciar un proyecto por WhatsApp',
     'about.cta.email': 'O envía un correo',
-    'about.wa.msg': 'Hola, encontré Nexoverse Media y quisiera iniciar un proyecto.',
+    'about.wa.msg': 'Hola, encontré World Marketing Labs y quisiera iniciar un proyecto.',
     'footer.tagline': 'Tecnología, automatización e IA al servicio de tu marca.',
     'footer.contact.title': 'Contacto', 'footer.contact.wa': 'WhatsApp directo',
     'footer.nav.title': 'Navegación', 'footer.services.title': 'Servicios',
@@ -97,7 +97,7 @@ const PROFILES = {
       name: 'Carlos E. Batista Fuentes',
       role: 'Founder & CEO · Computer Engineer',
       location: 'Miami, FL · Global remote work',
-      bio: "Computer Engineer with 6+ years of experience building technology that drives real business results. Carlos founded Nexoverse Media to give businesses access to the same systems that enterprise companies use — automation, AI, custom software and data-driven marketing — delivered with the personal attention only a dedicated specialist can give.",
+      bio: "Computer Engineer with 6+ years of experience building technology that drives real business results. Carlos founded World Marketing Labs to give businesses access to the same systems that enterprise companies use — automation, AI, custom software and data-driven marketing — delivered with the personal attention only a dedicated specialist can give.",
       bio2: "He understands both the technical and commercial sides of every project. That means the team doesn't just build what you ask for — they challenge assumptions, propose better approaches, and make sure every system delivered actually moves the needle for your business.",
       strengths: [
         'Full-stack web development (React, Next.js, Node.js, Python)',
@@ -113,14 +113,14 @@ const PROFILES = {
         { co: 'UniMás Credit Repair', role: 'Developer & Automation Specialist', loc: 'USA', bullets: ['Development of internal tools for process automation', 'CRM implementation and automated flows', 'API and digital platform integration', '40% increase in internal process automation'] },
         { co: 'Financial Technology Institution', role: 'Web Programmer', loc: 'Remote systems work', bullets: ['Development and maintenance of internal web applications', 'Optimization of digital systems and administrative processes', 'Technical support and continuous improvements to internal platforms'] },
       ],
-      ctaWa: "Hi, I saw the team at Nexoverse Media and I'd like to discuss a project.",
+      ctaWa: "Hi, I saw the team at World Marketing Labs and I'd like to discuss a project.",
       ctaEmail: 'Send an email',
     },
     es: {
       name: 'Carlos E. Batista Fuentes',
       role: 'Fundador & CEO · Ingeniero Informático',
       location: 'Miami, FL · Trabajo remoto global',
-      bio: 'Ingeniero Informático con más de 6 años de experiencia construyendo tecnología que genera resultados reales para negocios. Carlos fundó Nexoverse Media para darle a las empresas acceso a los mismos sistemas que usan las grandes corporaciones — automatización, IA, software personalizado y marketing basado en datos — con la atención personal que solo un especialista dedicado puede ofrecer.',
+      bio: 'Ingeniero Informático con más de 6 años de experiencia construyendo tecnología que genera resultados reales para negocios. Carlos fundó World Marketing Labs para darle a las empresas acceso a los mismos sistemas que usan las grandes corporaciones — automatización, IA, software personalizado y marketing basado en datos — con la atención personal que solo un especialista dedicado puede ofrecer.',
       bio2: 'Entiende tanto el lado técnico como el comercial de cada proyecto. Eso significa que el equipo no solo construye lo que pides — cuestiona supuestos, propone mejores enfoques y se asegura de que cada sistema entregado realmente mueva la aguja en tu negocio.',
       strengths: [
         'Desarrollo web full-stack (React, Next.js, Node.js, Python)',
@@ -136,7 +136,7 @@ const PROFILES = {
         { co: 'UniMás Credit Repair', role: 'Developer & Automation Specialist', loc: 'USA', bullets: ['Desarrollo de herramientas internas para automatización de procesos', 'Implementación de CRM y flujos automatizados', 'Integración de APIs y plataformas digitales', '40% de aumento en automatización de procesos internos'] },
         { co: 'Institución de tecnología financiera', role: 'Programador Web', loc: 'Trabajo remoto en sistemas', bullets: ['Desarrollo y mantenimiento de aplicaciones web internas', 'Optimización de sistemas digitales y procesos administrativos', 'Soporte técnico y mejoras continuas a plataformas internas'] },
       ],
-      ctaWa: 'Hola, vi el equipo de Nexoverse Media y me gustaría discutir un proyecto.',
+      ctaWa: 'Hola, vi el equipo de World Marketing Labs y me gustaría discutir un proyecto.',
       ctaEmail: 'Enviar un correo',
     }
   }
@@ -186,7 +186,7 @@ function buildProfile(memberId, lang) {
   return `
     <div class="drawer-profile">
       <div class="drawer-profile__top">
-        <div class="drawer-profile__photo"><img class="drawer-profile__img" src="assets/carlos.jpg" alt="${p.name}, Nexoverse Media specialist in Miami" loading="lazy" decoding="async" /><span>CB</span></div>
+        <div class="drawer-profile__photo"><img class="drawer-profile__img" src="assets/carlos.jpg" alt="${p.name}, World Marketing Labs specialist in Miami" loading="lazy" decoding="async" /><span>CB</span></div>
         <div>
           <h2>${p.name}</h2>
           <p class="drawer-profile__role">${p.role}</p>
