@@ -521,19 +521,32 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 }
 .marquee__track {
   display: flex;
+  align-items: center;
+  width: max-content;
   white-space: nowrap;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 13px;
-  letter-spacing: 0.22em;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: var(--ink-mute);
-  animation: marquee 30s linear infinite;
+  animation: marquee 90s linear infinite;
+  will-change: transform;
 }
-.marquee__track > span { margin-right: 36px; }
-.marquee__track span:nth-child(odd) { color: var(--ink); }
+.marquee__group {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 36px;
+  padding-right: 36px;
+}
+.marquee__group b {
+  color: rgba(255, 255, 255, .22);
+  font-weight: 600;
+}
+.marquee__group span:nth-child(4n + 1) { color: var(--ink); }
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
 }
 
 .badge {

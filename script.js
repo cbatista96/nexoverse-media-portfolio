@@ -560,12 +560,13 @@ function applyTranslations(lang) {
     el.setAttribute('href', parts.length ? `${base}?${parts.join('&')}` : base);
   });
 
-  /* Marquee — build a long looping track */
+  /* Marquee - build two long identical groups for a seamless loop */
   const marquee = document.getElementById('marqueeTrack');
   if (marquee && t['marquee.items']) {
     const items = t['marquee.items'].split('·').map(s => s.trim()).filter(Boolean);
-    const block = items.map(item => `<span>${item}</span><span>·</span>`).join('');
-    marquee.innerHTML = block + block;
+    const repeated = Array.from({ length: 4 }, () => items).flat();
+    const group = repeated.map(item => `<span>${item}</span><b aria-hidden="true">·</b>`).join('');
+    marquee.innerHTML = `<div class="marquee__group">${group}</div><div class="marquee__group" aria-hidden="true">${group}</div>`;
   }
 
   /* Document title + meta tags */
@@ -794,25 +795,6 @@ function triggerReveals() {
       const y = target.getBoundingClientRect().top + window.scrollY - 96;
       window.scrollTo({ top: y, behavior: 'smooth' });
     });
-  });
-})();
-
-/* ---------- Hero Title Line Reveal ---------- */
-(() => {
-  const lines = document.querySelectorAll('.hero__title .line');
-  lines.forEach((line, i) => {
-    const inner = document.createElement('span');
-    inner.style.display = 'inline-block';
-    inner.style.transform = 'translateY(110%)';
-    inner.style.transition = `transform 1s var(--ease) ${0.6 + i * 0.1}s`;
-
-    // Migrate i18n attrs to inner span so future translations target it
-    if (line.dataset.i18n) { inner.dataset.i18n = line.dataset.i18n; delete line.dataset.i18n; }
-    if (line.dataset.i18nHtml) { inner.dataset.i18nHtml = line.dataset.i18nHtml; delete line.dataset.i18nHtml; }
-
-    while (line.firstChild) inner.appendChild(line.firstChild);
-    line.appendChild(inner);
-    setTimeout(() => { inner.style.transform = 'translateY(0)'; }, 100);
   });
 })();
 
